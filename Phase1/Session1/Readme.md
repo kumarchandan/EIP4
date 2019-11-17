@@ -18,7 +18,7 @@ An Epoch occurs when a full set of training data is passed and backpropagated th
 
 **1x1 Convolution**
 
-It's a convolution filter of size 1x1. It keeps a very detailed information of the pixel.
+It's a convolution filter of size 1x1. The size of the input (image) remains unchanged. It keeps a very detailed information(at pixel level) of the image.
 
 **3x3 Convolution**
 
@@ -31,7 +31,7 @@ A feature map is the result of the convolution process. When a kernel slides thr
 
 **Activation Function**
 
-The output of the convolution process is linear, so Activation function is used to add non-linearity in the model.
+The output of the convolution process is linear, so Activation function is used to add non-linearity in the model. It gives the neural network the ability to learn complex data such as audio, video etc.
 
 **Receptive Field**
 
