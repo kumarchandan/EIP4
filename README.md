@@ -1,4 +1,4 @@
-## EIP assignments
+## EIP Session 1 Assignment
 
 MNIST
 print(score)
